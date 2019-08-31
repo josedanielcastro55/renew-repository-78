@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        var fecha1 = new Date();
+        var tiempo = fecha1.getTime();
+        var nombre = prompt("introsuce el nombre:");
+        var ape1 = prompt("introduce apellido1:");
+        var ape2 = prompt("introduce apellido2:");
+        var fecha2 = new Date();
+        var tiempo2 = fecha2.getTime();
+        var total = (tiempo2 - tiempo) / 1000;
+        total = total.toFixed(1);
+        document.write("al introducir" + " " + nombre + " " + ape1 + " " + ape2 + " " + "ha tardato" + " " + total + " " + "segundos (✌ﾟ∀ﾟ)");
+    </script>
+</body>
+
+</html>
